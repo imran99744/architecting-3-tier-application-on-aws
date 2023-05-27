@@ -38,6 +38,9 @@ To ensure the security of the architecture, the following measures are implement
 - Network Security: Security groups are configured to restrict traffic, allowing only necessary communication between the tiers.
 - Access Control: IAM roles and policies are used to grant appropriate permissions to EC2 instances and services.
 
+## Implemented Infrastructure as Code (IaC):
+After creating/implementing this architecture manually on AWS I have provisioned this entire architecture using Terraform. With Infrastructure as Code, I can define and deploy the infrastructure consistently, efficiently, and effortlessly. It's a game-changer!
+
 ## Conclution
 
 This project documentation outlines a 3-tier architecture deployed on AWS, aiming to create a scalable and highly available and fault tolerant web application. The architecture consists of a web tier, application tier, and database tier, with each tier fulfilling specific functions. The infrastructure setup involves a Virtual Private Cloud (VPC) with six subnets, security groups, and appropriate network configurations. 
